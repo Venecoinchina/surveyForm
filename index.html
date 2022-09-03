@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do Self-learning works?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<h1 id="title">“Do Self-learning Works? “🧐</h1>
+	<p id="description">Where do people looks for when learning online a new skill?</p>
+	
+	<form id="survey-form">
+		<fieldset>
+			<label>Name and Last Name<input type="text" id="name-label" placeholder="Input your name" required ></label>
+			<label>Email <input type="email" id="email-label" placeholder="Input your Email" required></label>
+			<label>How old are you?<input type="number" id="number-label" min="1" max="11" placeholder="How old are you?" required/></label>
+			<label>Country<input type="country" id="country-label" placeholder="which is your country of residence?" required/></label>
+		</fieldset>
+		
+		<fieldset>
+			<h3>Which of the following best describes your race or ethnicity?</h3>
+				<select id="dropdown" required>
+					<option value="">(Choose one)</option>
+           			<option value="1">White</option>
+					<option value="2">Black/African American </option>
+					<option value="3">Latino/Hispanic </option>
+					<option value="4">Asian/Asian American (includes East Asian, South Asian, Southeast Asian, and Pacific Islander)</option>
+					<option value="5">Native American</option>
+					<option value="6">Other</option>
+				</select>
+				<label id="other">If you choose Other:<input type="text" placeholder="(Please specify)" required ></label>
+			
+		</fieldset>
+		
+		<fieldset>
+			<h3>What are your interest in learning by yourself and on your own pace?</h3>
+				<label><input type="radio" name="option-type" class="inline" /> Cooking</label>
+				<label><input type="radio" name="option-type" class="inline" /> Computer Programming</label>
+				<label><input type="radio" name="option-type" class="inline" /> A new language</label>
+				<label><input type="radio" name="option-type" class="inline" /> Math, History, Sciences, Politics</label>
+				<label><input type="radio" name="option-type" class="inline" /> Playing a sport, an exercise correct move</label>
+				<label><input type="radio" name="option-type" class="inline" /> Music</label>
+				<label><input type="radio" name="option-type" class="inline" /> Sewing a button, welding microphones cables.</label>
+				<label><input type="radio" name="option-type" class="inline" /> How to speak in Public</label>
+				<label><input type="radio" name="option-type" class="inline" /> Marketing and Saleas</label>
+				<label><input type="radio" name="option-type" class="inline" /> Business Development</label>
+		</fieldset>
+		
+		<fieldset>
+			<h3>Which places you look for when learning online?</h3>
+				<label><input type="checkbox" value="option1" class="inline" /> Google</label>
+				<label><input type="checkbox" value="option2" class="inline" /> Youtube</label>
+				<label><input type="checkbox" value="option3" class="inline" /> Tik-Tok</label>
+				<label><input type="checkbox" value="option4" class="inline" /> Microsoft Bing</label>
+				<label><input type="checkbox" value="option5" class="inline" /> coursera.org</label>
+				<label><input type="checkbox" value="option6" class="inline" /> skillsare.com</label>
+				<label><input type="checkbox" value="option7" class="inline" /> edx.org</label>
+				<label><input type="checkbox" value="option8" class="inline" /> udemy.com</label>
+				<label><input type="checkbox" value="option9" class="inline" /> platzi.com</label>
+				<label><input type="checkbox" value="option10" class="inline" /> Other</label>
+				<label id="other">If you choose Other:<input type="text" placeholder="(Please specify)" required ></label>
+		</fieldset>
+		<fieldset>
+			<label>Any ideas to help us improve?
+				<textarea name="comments" rows="4" cols="30" placeholder="Comments or suggestions enter here......"></textarea>
+			</label>
+		<fieldset>
+	<input type="submit" id="Submit" />
+	</form>	
+	<footer>All the logos are TradeMark designed by <strong>A compayInc.<strong></footer>
+</body>
+</html>
